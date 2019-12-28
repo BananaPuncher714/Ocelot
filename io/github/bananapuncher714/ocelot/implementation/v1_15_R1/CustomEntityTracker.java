@@ -36,7 +36,7 @@ public class CustomEntityTracker extends EntityTracker implements OcelotTracker 
 	private EntityTrackerEntry trackerEntry;
 	private VisibilityController controller;
 	
-	public CustomEntityTracker( PlayerChunkMap playerChunkMap, Entity entity, int chunkRange, int trackingRange, boolean deltaTracking ) {
+	protected CustomEntityTracker( PlayerChunkMap playerChunkMap, Entity entity, int chunkRange, int trackingRange, boolean deltaTracking ) {
 		playerChunkMap.super( entity, chunkRange, trackingRange, deltaTracking );
 		this.entity = entity;
 		this.chunkRange = chunkRange;
