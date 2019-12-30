@@ -21,12 +21,26 @@ public class Ocelot extends JavaPlugin {
 		getLogger().info( "Detected version " + ReflectionUtil.VERSION );
 	}
 	
+	/**
+	 * Get the OcelotTracker responsible for this entity.
+	 * 
+	 * @param entity
+	 * Any Bukkit entity
+	 * @return
+	 * The server version specific implementation of OcelotTracker.
+	 */
 	public OcelotTracker getTrackerFor( Entity entity ) {
 		Validate.notNull( entity );
 		
 		return handler.getEntityTrackerFor( entity );
 	}
 	
+	/**
+	 * Singleton getter.
+	 * 
+	 * @return
+	 * Get the Ocelot singleton.
+	 */
 	public Ocelot getInstance() {
 		return MAIN;
 	}

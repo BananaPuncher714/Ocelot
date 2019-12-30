@@ -7,6 +7,10 @@ public class VisibilityControllerDistance implements VisibilityController {
 	protected double distance;
 	protected double distanceSquared;
 	
+	/**
+	 * @param distance
+	 * Distance in blocks for how far away an entity is visible.
+	 */
 	public VisibilityControllerDistance( double distance ) {
 		this.distance = distance;
 		distanceSquared = distance * distance;
