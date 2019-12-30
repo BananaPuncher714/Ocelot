@@ -6,6 +6,11 @@ import java.util.Set;
 import org.bukkit.entity.Entity;
 import org.bukkit.entity.Player;
 
+/**
+ * Interface for an entity tracker. Ability to set the {@link VisibilityController}.
+ * 
+ * @author BananaPuncher714
+ */
 public interface OcelotTracker {
 	/**
 	 * Get the entity associated with this tracker.

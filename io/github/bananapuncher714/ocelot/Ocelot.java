@@ -7,6 +7,11 @@ import org.bukkit.plugin.java.JavaPlugin;
 import io.github.bananapuncher714.ocelot.api.NMSHandler;
 import io.github.bananapuncher714.ocelot.api.OcelotTracker;
 
+/**
+ * Main Ocelot entry point.
+ * 
+ * @author BananaPuncher714
+ */
 public class Ocelot extends JavaPlugin {
 	private static Ocelot MAIN;
 	

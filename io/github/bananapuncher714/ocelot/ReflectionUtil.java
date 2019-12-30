@@ -10,6 +10,9 @@ import io.github.bananapuncher714.ocelot.api.NMSHandler;
  * @author BananaPuncher714
  */
 public final class ReflectionUtil {
+	/**
+	 * Current Minecraft server version in vX_XX_RX form
+	 */
 	public static final String VERSION;
 	
 	static {

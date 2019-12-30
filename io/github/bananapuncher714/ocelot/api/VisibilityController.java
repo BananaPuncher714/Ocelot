@@ -2,6 +2,11 @@ package io.github.bananapuncher714.ocelot.api;
 
 import org.bukkit.entity.Player;
 
+/**
+ * Used with {@link OcelotTracker} to determine whether a player can see an entity.
+ * 
+ * @author BananaPuncher714
+ */
 public interface VisibilityController {
 	/**
 	 * Controls whether a player can see an entity. This is called frequently, often whenever a player moves.

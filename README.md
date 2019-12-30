@@ -1,5 +1,5 @@
 # **Ocelot**
-Allows developers to track entities much more easily, without having to rely on packets or NMS.
+Allows developers to track entities much more easily, without having to rely on packets or NMS. Find the javadocs [here](https://bananapuncher714.github.io/Ocelot/).
 
 ## Where to start
 To get started, add `Ocelot` to  your plugin's dependencies. You can get the Ocelot instance like so:
