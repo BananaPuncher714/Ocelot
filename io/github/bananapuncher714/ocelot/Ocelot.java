@@ -17,6 +17,8 @@ public class Ocelot extends JavaPlugin {
 		MAIN = this;
 		
 		handler = ReflectionUtil.getNMSHandler();
+		
+		getLogger().info( "Detected version " + ReflectionUtil.VERSION );
 	}
 	
 	public OcelotTracker getTrackerFor( Entity entity ) {

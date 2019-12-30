@@ -44,7 +44,11 @@ entityTracker.setVisibilityController( controller );
 ```
 Calling the `OcelotTracker#update()` method is recommended after setting the visibility controller. Note that the trackers do not persist over entity despawn and respawn.
 
+## Spigot
+Find the latest version on Spigot [here](https://www.spigotmc.org/resources/73853/).
+
 ## Supported Versions
 Ocelot supports these versions:
+- 1.14.4
 - 1.15
 - 1.15.1
